@@ -1,0 +1,188 @@
+html {
+    scroll-behavior: smooth
+}
+
+#navbar{
+    background-color: #2E2E2E;
+    border-bottom: 1px solid #eee;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+
+}
+
+#navbar_ul{
+    float: right;
+    margin-right: 200px;
+}
+
+#navbar h2 {
+    float: left;
+    line-height: 40px;
+    color: white;
+    margin-left: 250px;
+}
+
+#navbar_ul li {
+    float: left;
+    margin-left: 15px;
+    margin-right: 15px;
+    list-style: none;
+    line-height: 50px;
+}
+
+#navbar_ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.5s;
+    display: inline-block;
+}
+
+#navbar_ul li a:hover{
+    color: #FE2E2E;
+    font-size: 23px;
+    transition: 0.5s;
+}
+
+#main_box{
+    border: 1.5px solid #D8D8D8;
+    padding: 100px;
+    height: 400px;
+    margin-top: 150px;
+    margin-left: 250px;
+    margin-right: 250px;
+    display: block;
+    text-align: center;
+}
+
+#main_box_p {
+    margin-top: 150px;
+    line-height: 5px;
+}
+
+#about h1{
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 1000px;
+    color: #848484;
+}
+
+#about h2{
+    color: #1C1C1C;
+}
+
+#about img{
+    margin-left: 250px;
+    width: 500px;
+    height: 600px;
+    display: block;
+    float: left;
+    margin-right: 60px;
+}
+
+#profile{
+    margin-top: 40px;
+    line-height: 10px;
+    margin-bottom: 50px;
+    color: #1C1C1C;
+}
+
+#license {
+    margin-top: 40px;
+    line-height: 10px;
+    margin-bottom: 50px;
+    color: #1C1C1C;
+}
+
+#Education {
+    margin-top: 40px;
+    line-height: 10px;
+    color: #1C1C1C;
+}
+
+
+#skill{
+    text-align: center;
+}
+
+#skill h1{
+    margin-bottom: 60px;
+    color: #848484;
+    margin-top: 1000px;
+}
+
+#skill h2{
+    font-size: 64px;
+    transition: 0.5s;
+    display: inline-block;
+    margin-bottom: 60px;
+}
+
+#skill h2:hover{
+    font-size: 72px;
+    transition: 0.5s;
+    color: salmon;
+}
+
+#skill p{
+    line-height: 10px;
+}
+
+#skill h3{
+    font-size: 55px;
+    margin-top: 60px;
+}
+
+#portfoilo{
+    text-align: center;
+}
+
+#portfoilo h1{
+    margin-top: 1000px;
+    color: #848484;
+    text-align: center;
+}
+
+#portfoilo a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 32px;
+    transition: 0.5s;
+}
+
+#portfoilo a:hover{
+    color: coral;
+    transition: 0.5s;
+}
+
+#portfoilo_one {
+    float: left;
+    text-align: center;
+    margin-bottom: 1000px;
+}
+
+#portfoilo_one_main {
+    margin-bottom: 60px;
+}
+
+#portfoilo_second {
+    text-align: center;
+}
+
+#portfoilo_second a{
+    font-size: 32px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+#amongus_img {
+    float: left;
+    margin-top: 100px;
+}
